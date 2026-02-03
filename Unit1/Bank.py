@@ -10,7 +10,7 @@ class Bank:
     def check(self):
         print("Balance in account ",an," is : ",self.ac)
 an=float(input("Enter account number : "))
-b=Bank(10000)
+b=Bank(10000,0,0)
 while t>0:
     print("Enter 1 to check balance")
     print("Enter 2 to Deposit")
